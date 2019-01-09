@@ -1,0 +1,1 @@
+function maskify(card) { var output = ''; var lastFour = card.slice(-4, card.length); if (card.length <=4 ) { return card; } else { for (var i=0 ; i < card.length -4; i++) { output +='#' ; } } return output + lastFour; } maskify( '4556364607935616');
